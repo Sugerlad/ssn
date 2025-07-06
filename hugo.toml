@@ -1,0 +1,34 @@
+baseURL = "https://suisuinian.top"
+languageCode = "zh-CN"
+theme = "yinyang"
+DefaultContentLanguage = "cn"
+
+[params.site]
+  title = "苏哥碎碎念"
+  description = "不怕慢，就怕站。不到长城非好汉！"
+[params.author]
+  name = "苏哥拉第"
+  homepage = "https://suisuinian.top"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+  [languages.cn]
+    contentDir = "content/cn"
+    languageName = "Chinese"
+    weight = 1
+
+[params]
+disqus = "" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[[params.socials]]
+name = "About"
+link = "https://github.com/sugerlad"
